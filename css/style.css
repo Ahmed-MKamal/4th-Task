@@ -1,0 +1,135 @@
+.header{
+    width: 100%;
+    height: 45px;
+    background: grey;
+    opacity: .3;
+}
+.ul1{
+    float: right;
+    margin: 10px 20px;
+}
+.items{
+    display: inline-block;
+}
+.aa{
+    text-decoration: none;
+    margin: 0px 10px;
+    color: white
+}
+.h11{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif
+}
+.p11{
+    width: 80px;
+    height: 4px;
+    background: darkblue;
+    margin: -5px auto;
+}
+.container{
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+    margin: 80px 0px;
+    background-image: url(../Images/ddd.jpg);
+}
+.div1{
+    height: 300px;
+    width: 85%;
+    margin: 80px auto;
+    text-align: center;
+}
+.h12{
+    color: white;
+}
+.p12{
+    letter-spacing: 4px ;
+    color: rgb(201, 201, 201);
+    margin: 15px 0px;
+}
+body{
+    height: 1000px;
+}
+.b1{
+    width: 140px;
+    height: 40px;
+    margin: 5px 35px;
+    border: 0px;
+}
+.b2{
+    width: 140px;
+    height: 40px;
+    background: blue;
+    border: 0px;
+}
+.a12{
+    color: white;
+    text-decoration: none;
+}
+.a11{
+    text-decoration: none;
+    color: black;
+}
+.parent{
+    overflow: auto;
+    width: 100%;
+    height: 500px;
+    margin: 80px 280px;
+}
+h2{
+    color: gray;
+    opacity: .5;
+}
+.div21{
+    text-align: center;
+    border: 1px solid gray;
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin: 20px 0px;
+}
+.div22{
+    text-align: center;
+    border: 1px solid gray;
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin: 20px 80px;
+}
+.div23{
+    text-align: center;
+    border: 1px solid gray;
+    width: 250px;
+    height: 300px;
+    float: left;
+    margin: 20px 0px;
+}
+p{
+    color: gray;
+    opacity: .5;
+}
+.divP{
+   display: inline-block;
+   font-size: larger;
+   font-weight: bolder;
+    border: 1px solid skyblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.aaa{
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.b3{
+    width: 150px;
+    border: 1px solid skyblue;
+    background: none;
+    margin-top: 20PX;
+}
+.div21:hover,.div22:hover,.div23:hover{
+    transition: 1.5s;
+    background: red;
+    opacity: .4;
+}
